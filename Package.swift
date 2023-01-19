@@ -21,9 +21,9 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(
-            name: "Segment",
-            url: "https://github.com/segmentio/analytics-swift.git",
-            from: "1.1.2"
+            name: "SegmentDeprecated",
+            url: "https://github.com/SaiKhal/SegmentDeprecated",
+            from: "1.0.0"
         ),
         .package(
             name: "braze-swift-sdk",
